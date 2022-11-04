@@ -35,13 +35,13 @@ public class CreatureState {
 
     public final int gold;
     private final int displayGold;
-    private final boolean isDying;
-    private final boolean isDead;
-    private final boolean halfDead;
+    public final boolean isDying;
+    public final boolean isDead;
+    public final boolean halfDead;
     private final boolean flipHorizontal;
     private final boolean flipVertical;
     private final float escapeTimer;
-    private final boolean isEscaping;
+    public final boolean isEscaping;
     private final int lastDamageTaken;
     private final float hb_x;
     private final float hb_y;

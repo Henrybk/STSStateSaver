@@ -23,7 +23,7 @@ public class CardState {
     public final boolean upgraded;
     private final int timesUpgraded;
     public final int baseDamage;
-    private final int baseBlock;
+    public final int baseBlock;
 
     public final int misc;
     public final int cost;
