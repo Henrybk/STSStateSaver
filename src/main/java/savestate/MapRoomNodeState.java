@@ -34,12 +34,12 @@ public class MapRoomNodeState {
     private final boolean eliteTrigger;
     private final boolean mugged;
     private final boolean combatEvent;
-    private final boolean rewardAllowed;
+    public final boolean rewardAllowed;
     private final boolean rewardTime;
     private final boolean skipMonsterTurn;
 
     private final float waitTimer;
-    private final RoomType roomType;
+    public final RoomType roomType;
 
     public ArrayList<MonsterState> monsterData = null;
     private final AbstractRoom.RoomPhase phase;
@@ -331,7 +331,7 @@ public class MapRoomNodeState {
     }
 
 
-    private enum RoomType {
+    public enum RoomType {
         MONSTER,
         ELITE,
         BOSS

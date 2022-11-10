@@ -61,7 +61,7 @@ public class SaveState {
     private GridCardSelectScreenState gridCardSelectScreenState = null;
     private CardRewardScreenState cardRewardScreenState = null;
     public RngState rngState;
-    private final int ascensionLevel;
+    public final int ascensionLevel;
     private final int mantraGained;
     public final int lessonLearnedCount;
     public final int parasiteCount;

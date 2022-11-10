@@ -19,7 +19,7 @@ public class RelicState {
     public final String relicId;
     public final int counter;
     private final boolean grayscale;
-    private final boolean pulse;
+    public final boolean pulse;
 
     private static HashMap<String, LinkedList<AbstractRelic>> freeRelics;
 
