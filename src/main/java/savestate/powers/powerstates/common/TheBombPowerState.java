@@ -10,7 +10,7 @@ import savestate.powers.PowerState;
 
 // TODO this
 public class TheBombPowerState extends PowerState {
-    private final int damage;
+    public final int damage;
 
     public TheBombPowerState(AbstractPower power) {
         super(power);
