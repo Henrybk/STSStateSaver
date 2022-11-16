@@ -16,10 +16,10 @@ import static savestate.SaveStateMod.shouldGoFast;
 
 public class LagavulinState extends MonsterState {
     private final int debuffTurnCount;
-    private final int idleCount;
+    public final int idleCount;
     protected final boolean asleep;
     private final boolean isOut;
-    private final boolean isOutTriggered;
+    public final boolean isOutTriggered;
 
     public LagavulinState(AbstractMonster monster) {
         super(monster);
